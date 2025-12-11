@@ -1,0 +1,892 @@
+/* Main */
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Bahnschrift, sans-serif;
+    background-color: #F7FBFF;
+    color: #222831;
+    text-decoration: none;
+}
+
+a{
+    color: #222831;
+    text-decoration: none;
+}
+a:visited {
+    color: #222831;
+}
+/* TopNav */
+.topnav {
+    background-color: #ffffff;
+    top: 0;
+    text-align: center;
+}
+
+.topnav a {
+    float: initial;
+    color: #7e7e7e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.topnav a.active {
+    background-color: #ffffff;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #38444d;
+    display: flex;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 999;
+    transition: 0.3s ease;
+}
+
+.dropdown-content a {
+    color: #ededed;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    transition: 0.3s ease;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Main CSS */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.content {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    text-align: left;
+    height: max-content;
+}
+
+a.header {
+    color: #000000;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+h2 {
+    color: #000000;
+}
+
+h3 {
+    color: #000000;
+}
+
+/* Login.html */
+.login {
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto;
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: 2px solid #bbf4f8;
+}
+
+.login.register {
+    width: fit-content;
+
+}
+
+button {
+    background-color: #7FA1C3;
+    color: #F7FBFF;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border-color: #7FA1C3;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.name-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.name-group input {
+    flex: 1;
+}
+
+/* Login en Register buttons van Main */
+.login-button,
+.auth-buttons .button {
+    background-color: #3674B5;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.login-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.login-button a:hover,
+.auth-buttons .button:hover,
+button:hover {
+    background-color: #ffffff;
+    color:  #3674B5;
+}
+
+.auth-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.header {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-family: "Fleur De Leah", cursive;
+    font-weight: 400;
+    font-style: normal;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+.logo{
+    height: 80px;
+    width: auto;
+    border-radius: 5px;
+    border-color: #ffffff;
+}
+
+
+/* Table */
+table {
+    font-family: Bahnschrift, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: #000000;
+}
+
+td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: Transparent;
+    color: #7e7e7e;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content a {
+    color:  #3674B5;
+}
+
+.dropdown:hover .dropbtn {
+    color:  #3674B5;
+    background-color: white;
+}
+
+footer{
+    border-top: 2px black;
+}
+
+.logo{
+    position: relative;
+}
+
+.home_page img {
+    width: 100% ; /* Ensures the image scales down with the screen size */
+    height: auto;    /* Maintains the aspect ratio */
+    display: block;  /* Removes any extra space below the image */
+    margin: 0 auto;  /* Centers the image if needed */
+}
+.text-overlay{
+    height: 40%;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #EEEEEE;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+}
+.extrapng{
+width: 35%;
+margin-left: 48%;
+    margin-top: -27%;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 kolommen */
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+}
+
+.product-container {
+    width: 300px; /* of 250px of meer */
+    background: #7FA1C3;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-right: 20px;
+}
+
+.products-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.product-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.product-container img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    display: block;
+    align-content: center;
+}
+
+.product h2, .product h3 {
+    color: #EEEEEE;
+    margin: 10px;
+    text-align: center;
+}
+.text_center{
+    color: #506D84;
+    text-align: center;
+    text-shadow:  rgba(0, 1, 1, 1.5) 0px 1px;
+}
+.see_more{
+    color: #EEEEEE;
+    text-align: center;
+}
+.arrow_down {
+    width: 100px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 20px auto; /* Center the image and add spacing */
+}
+.categories_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+}
+
+.categories_box {
+    width: 300px; /* or adjust as needed */
+    background: #7FA1C3;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-right: 20px;
+}
+
+.categories_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.categories_box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.categories img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    display: block;
+}
+
+.categories h2, .categories p {
+    color: #EEEEEE;
+    margin: 10px;
+    text-align: center;
+}
+.red_arrow{
+    width: 200px; /* Increase the width to make it larger */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Position it absolutely */
+    right: 20px; /* Position it 20px from the right edge */
+    top: 210%; /* Center it vertically */
+    transform: translateY(-50%); /* Adjust for perfect vertical centering */
+    display: block;
+    margin-bottom: 200px; /* Remove any automatic margin */
+}
+.foto_1{
+    width: 80%;
+    margin-left: 200px;
+
+}
+.foto_2{
+    width: 80%;
+    margin-left: -250px;
+    margin-top: -25%;
+}
+.foto_3{
+    width: 80%;
+    margin-left: 300px;
+    margin-top: -28%;
+}
+.foto_4{
+    width: 80%;
+    margin-left: -80px;
+    margin-top: -25%;
+}
+.site-footer {
+    margin-top: 30px;
+    margin-left: -75px;
+    background-color: #38444d;
+    color: #ffffff;
+    padding: 60px 0; /* groter */
+    text-align: center;
+    width: 111%; /* precies breedte van het scherm */
+    box-sizing: border-box; /* voorkomt dat padding extra breedte toevoegt */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px; /* Meer binnenruimte */
+    max-width: 1800px; /* Groter max-breedte voor meer ruimte */
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 30px;
+    min-width: 300px; /* Grotere secties */
+}
+
+.footer-section h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.footer-section p, .footer-section ul {
+    font-size: 18px;
+    line-height: 2;
+}
+
+.footer-bottom {
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+/* product add page */
+.small_container{
+    margin-top: -40px;
+}
+.product-box {
+
+    background: #FBFBFB;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    align-items: center;
+    margin-left: 320px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);}
+
+.row1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+/* Styling voor de productafbeelding */
+
+
+/* Styling voor productinformatie */
+.col-2 {
+    margin: 30px;
+    margin-left: 180px;
+    align-items: center;
+    width: 50%;
+    flex-basis: 48%;
+
+}
+
+.col-2 p {
+    font-size: 18px;
+    color: #555;
+}
+
+.col-2 h1 {
+    font-size: 28px;
+    margin: 10px 0;
+    color: black;
+}
+
+.col-2 h4 {
+    font-size: 22px;
+    color: black;
+    margin: 10px 0;
+}
+.col-2 textarea{
+    font-size: 18px;
+    color: #555;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    resize: vertical;
+    height: 100px;
+    width: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+.btn_add{
+    margin-left: 190px;
+    width: 50%;
+}
+/* Hide the default file input */
+input[type="file"] {
+    display: none;
+}
+
+/* Style the label as a button */
+.file-input-label {
+    width: 90%;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #7FA1C3;
+    color: #F7FBFF;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.file-input-label:hover {
+    background-color: #ffffff;
+    color: #3674B5;
+    border: 2px solid #3674B5;
+}
+
+/* Optional: Style the file name display */
+.file-name {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+.styled-select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    background-color: #FBFBFB;
+    transition: border-color 0.3s ease;
+}
+
+.styled-select:focus {
+    border-color: #7FA1C3;
+}
+
+.styled-textarea {
+    width: 95%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    background-color: #FBFBFB;
+    resize: vertical;
+    transition: border-color 0.3s ease;
+}
+
+.styled-textarea:focus {
+    border-color: #7FA1C3;
+}
+
+/* ALERT*/
+.alert {
+    position: fixed; /* Zorgt ervoor dat de alert altijd zichtbaar is */
+    top: 50px;
+    right: 20px;
+    background-color: #f44336;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 1000; /* Zorgt ervoor dat de alert boven andere elementen staat */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.5s ease;
+}
+
+.close-btn {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    top: 5px;
+    right: 7px;
+    margin-left: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.alert p {
+    margin: 0;
+}
+.success {
+    position: fixed; /* Zorgt ervoor dat de alert altijd zichtbaar is */
+    top: 50px; /* Afstand van de bovenkant */
+    right: 20px; /* Afstand van de rechterkant */
+    background-color: #198a34; /* Rood */
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 1000; /* Zorgt ervoor dat de alert boven andere elementen staat */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Schaduw voor diepte */
+    transition: opacity 0.5s ease; /* Voor een fade-out effect */
+}
+
+.success .close-btn {
+    margin-left: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.success p {
+    margin: 0; /* Verwijder standaard marge */
+}
+.product-card {
+    background-color: #ffffff; /* Witte achtergrond voor de productkaart */
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 2rem;
+    max-width: 800px;
+    margin: 20px auto; /* Center de kaart horizontaal */
+    align-items: flex-start; /* Zorg ervoor dat items bovenaan uitgelijnd zijn */
+}
+
+.product-photo {
+    flex: 0 0 40%; /* Zorg ervoor dat de afbeelding 40% van de breedte inneemt */
+}
+
+.product-photo img {
+    width: 100%;
+    border-radius: 12px;
+    border: 2px solid #ddd; /* Rand om de afbeelding */
+}
+
+.product-details {
+    flex: 1; /* Laat de details de resterende ruimte innemen */
+    color: #333; /* Donkere tekstkleur voor leesbaarheid */
+}
+
+.product-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333; /* Donkere kleur voor de titel */
+}
+
+.product-price {
+    color: #007bff; /* Oranje kleur voor de prijs */
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.product-description {
+    color: #555;
+    margin-bottom: 1.5rem;
+    margin-top: 25px;
+}
+
+.add-to-cart-btn {
+    background-color: #007bff; /* Blauwe kleur voor de knoppen */
+    color: #fff;
+    padding: 0.8rem 1.6rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px; /* Ruimte tussen de knoppen */
+}
+
+.add-to-cart-btn:hover {
+    background-color: whitesmoke; /* Donkerdere blauwe kleur bij hover */
+}
+
+/* Responsief ontwerp */
+@media (max-width: 768px) {
+    .product-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.add-to-cart-btn-overview button {
+    margin-left: 90px;
+    background-color: white; /* Witte achtergrondkleur voor de knop */
+    color: #578fc5; /* Blauwe tekstkleur voor contrast */
+    border: 2px solid #3a5572; /* Blauwe rand voor definitie */
+    padding: 0.8rem 1.6rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.add-to-cart-btn-overview button:hover {
+    background-color: #3a5572; /* Blauwe achtergrondkleur bij hover */
+    color: white; /* Witte tekstkleur bij hover */
+}
+
+/* Build */
+
+/* --- PC Builder Form Yapısı --- */
+.pc-builder-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Mobil için tek sütun */
+    gap: 2rem; /* 32px */
+}
+
+/* Geniş ekranlar için (1024px ve üzeri) */
+@media (min-width: 1024px) {
+    .pc-builder-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 sütunlu yapı */
+    }
+    .components-section {
+        grid-column: span 2 / span 2; /* 2 sütun kaplar */
+    }
+    .summary-section {
+        grid-column: span 1 / span 1; /* 1 sütun kaplar */
+    }
+}
+
+/* --- Kart (Widget) Stili --- */
+.card {
+    background-color: #ffffff;
+    padding: 1.5rem; /* 24px */
+    border-radius: 0.75rem; /* 12px */
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); /* shadow-md */
+}
+
+/* Kart içindeki elemanlar arasında dikey boşluk sağlar */
+.card-content > * + * {
+    margin-top: 1.5rem; /* 24px */
+}
+
+.card-header {
+    border-bottom: 1px solid #e5e7eb; /* border-gray-200 */
+    padding-bottom: 0.75rem; /* 12px */
+    margin-bottom: 1.5rem; /* Diğer elemanlarla arasını açar */
+}
+
+
+/* --- Form Elemanları --- */
+.form-label {
+    display: block;
+    font-size: 1.125rem; /* 18px */
+    font-weight: 500; /* medium */
+    color: #374151; /* gray-700 */
+    margin-bottom: 0.5rem; /* 8px */
+}
+
+.form-input,
+.component-select {
+    width: 100%;
+    padding: 0.75rem; /* 12px */
+    border: 1px solid #d1d5db; /* gray-300 */
+    border-radius: 0.5rem; /* 8px */
+    background-color: #ffffff;
+    transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.form-input:focus,
+.component-select:focus {
+    outline: none;
+    border-color: #3b82f6; /* blue-500 */
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.4); /* ring-2 ring-blue-500 */
+}
+
+/* --- Özet Bölümü (Sağ Sütun) --- */
+.summary-box {
+    position: sticky;
+    top: 2rem; /* 32px */
+}
+
+#summary {
+    min-height: 150px;
+    margin-bottom: 1.5rem; /* 24px */
+}
+
+/* Özet listesindeki her bir eleman arasındaki boşluk */
+#summary > * + * {
+    margin-top: 0.75rem; /* 12px */
+}
+
+#summary .text-placeholder {
+    color: #6b7280; /* gray-500 */
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 0.875rem; /* 14px */
+}
+
+.summary-item-details {
+    padding-right: 0.5rem;
+}
+
+.summary-item-category {
+    font-weight: 600; /* semibold */
+    color: #374151; /* gray-700 */
+}
+
+.summary-item-name {
+    color: #4b5563; /* gray-600 */
+}
+
+.summary-item-price {
+    font-weight: 500;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.summary-footer {
+    border-top: 1px solid #e5e7eb; /* gray-200 */
+    padding-top: 1rem; /* 16px */
+}
+
+.total-price-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem; /* 24px */
+    font-weight: 700; /* bold */
+}
+
+/* --- Kaydet Butonu --- */
+.submit-button {
+    margin-top: 1.5rem; /* 24px */
+    width: 100%;
+    background-color: #7fa1c3; /* green-600 */
+    color: #ffffff;
+    font-weight: 700; /* bold */
+    padding: 0.75rem 1rem; /* 12px 16px */
+    border-radius: 0.5rem; /* 8px */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-color: #7FA1C3;
+}
+
+.submit-button:hover {
+    background-color: #ffffff;
+    color:  #3674B5;
+}
